@@ -1,0 +1,1 @@
+/home/oyhd/devconfig/vim
