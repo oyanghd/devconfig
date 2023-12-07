@@ -31,12 +31,12 @@ if command -v nvim > /dev/null
     alias vim 'nvim'
     alias vi 'nvim'
 # Check if vim is in the path
-elif command -v vim > /dev/null
+else if command -v vim > /dev/null
     set -gx VISUAL vim
     set -gx EDITOR vim
     alias vi 'vim'
 # Check if vi is in the path
-elif command -v vi > /dev/null
+else if command -v vi > /dev/null
     set -gx VISUAL vi
     set -gx EDITOR vi
 end
