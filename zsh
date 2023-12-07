@@ -1,1 +1,0 @@
-/home/oyhd/devconfig/zsh
