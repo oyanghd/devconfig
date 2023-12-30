@@ -17,8 +17,9 @@ cp -r devconfig/.config ~/.config
 
 curl https://sh.rustup.rs -sSf | sh
 
-cargo install --locked starship
-cargo install --locked zellij
+cargo install starship --locked
+cargo install zellij --locked
+cargo install zoxide --locked
 ```
 
 
