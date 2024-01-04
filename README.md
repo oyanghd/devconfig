@@ -13,7 +13,7 @@ Install method
 
 ```shell
 ln -s devconfig/zshrc.zsh ~/.zshrc
-cp -r devconfig/.config ~/.config
+cp -r devconfig/.config/* ~/.config
 
 curl https://sh.rustup.rs -sSf | sh
 
