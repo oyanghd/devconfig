@@ -12,7 +12,7 @@ Install method
 (should have a running proxy tools)
 
 ```shell
-ln -s devconfig/zshrc.zsh ~/.zshrc
+ln -s devconfig/zsh/zshrc.zsh ~/.zshrc
 cp -r devconfig/.config/* ~/.config
 
 curl https://sh.rustup.rs -sSf | sh
